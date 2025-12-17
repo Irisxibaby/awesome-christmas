@@ -350,10 +350,10 @@ const App: React.FC = () => {
       <div className={`absolute bottom-6 left-6 z-20 pointer-events-none transition-opacity duration-500 ${isSignatureOpen ? 'opacity-0' : 'opacity-100'}`}>
             <div className="flex flex-col items-center justify-center">
                 <div className="font-body italic text-sm md:text-base text-[#d4af37] leading-none pb-1 tracking-widest filter drop-shadow-[0_0_5px_rgba(212,175,55,0.6)]">
-                    Present For You
+                    Present For 倩倩
                 </div>
                 <div className="text-slate-500 text-[9px] md:text-[10px] uppercase tracking-[0.3em] font-luxury">
-                    MADE BY IRIS
+                    MADE BY 恒
                 </div>
             </div>
       </div>
