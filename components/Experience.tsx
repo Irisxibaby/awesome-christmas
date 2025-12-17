@@ -311,7 +311,7 @@ const SceneContent: React.FC<ExperienceProps> = ({ mixFactor, colors, inputRef, 
         />
       </group>
 
-      <EffectComposer enableNormalPass={false} multisampling={0}>
+      <EffectComposer disableNormalPass={true} multisampling={0}>
         <Bloom 
             luminanceThreshold={0.9} 
             mipmapBlur 
